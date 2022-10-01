@@ -1,11 +1,14 @@
 $blue_text: #244D4D;
 $blue_color: #154444;
 $black: #161616;
+$white: #ffffff;
+$sans: sans-serif;
 
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    
 }
 
 .container{
@@ -15,7 +18,6 @@ $black: #161616;
 .nav-menu{
 display: flex;
 justify-content: center;
-flex-direction: row;
  
 &__logo{
     margin-top: 44px;
@@ -24,20 +26,98 @@ flex-direction: row;
     font-size: 24px;
     line-height: 29px;
     color: $blue_text;
+    font-family: $sans;
+    margin-right: 217px;
 } 
 
 &__link{
     display: flex;
+    justify-content: space-between;
+    list-style: none;
     grid-gap: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 48.02px;
+    font-family: sans-serif;
+}
+
+&__link a{
+    text-decoration: none;
+    color: $black;
 }
 
 &__loupe{
-    width: 21,14px;
-    height: auto;
+    max-width: 24px;
+    max-height: 24px;
+    margin-top: 46px;
+    margin-left: 285px;
+    margin-bottom: 31px;
+    
 }
 
 &__menu{
-    width: 24px;
-    height: auto;
+    max-width: 24px;
+    max-height: 16px;
+    margin-left: 38px;
+   margin-bottom: 31px;
+}
+
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+
+&__image{
+    width: 411px;
+    height: 560px;
+    margin-left: 120px;
+}
+
+&__text{
+    background-color: $blue_color;
+    height: 560px;
+    width: 1200px;
+    margin-right: 120px;
+}
+
+&__title{
+    color: $white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    font-family: $sans;
+    padding-top: 101px;
+    padding-left: 100px;
+}
+
+&__subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;    
+    color: $white;
+    padding-left: 100px;
+    width: 488px;
+    height: 75px;
+    font-family: $sans;
+
+}
+
+&__button{
+    background-color: $white;
+    width: 172px;
+    height: 56px;
+    padding-top: 15.5px;
+    padding-left: 25px;
+    font-family: $sans;
+    
+}
+
+&__button a{
+    text-decoration: none;
+    color: $blue_color;
+    
 }
 }
