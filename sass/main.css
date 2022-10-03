@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -10,7 +12,7 @@
 
 .nav-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .nav-menu__logo {
   margin-top: 44px;
@@ -19,7 +21,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #244D4D;
-  font-family: sans-serif;
+  font-family: "Montserrat";
   margin-right: 217px;
 }
 .nav-menu__link {
@@ -31,7 +33,7 @@
   font-size: 16px;
   line-height: 21px;
   margin-top: 48.02px;
-  font-family: sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 .nav-menu__link a {
   text-decoration: none;
@@ -64,16 +66,16 @@
   background-color: #154444;
   height: 560px;
   width: 1200px;
-  margin-right: 120px;
 }
 .main-content__title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 68px;
-  font-family: sans-serif;
+  font-family: "Montserrat";
   padding-top: 101px;
   padding-left: 100px;
+  width: 671px;
 }
 .main-content__subtitle {
   font-weight: 400;
@@ -81,10 +83,10 @@
   line-height: 25px;
   padding-top: 20px;
   color: #ffffff;
-  padding-left: 100px;
+  margin-left: 100px;
   width: 488px;
   height: 75px;
-  font-family: sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 .main-content__button {
   background-color: #ffffff;
@@ -92,9 +94,21 @@
   height: 56px;
   padding-top: 15.5px;
   padding-left: 25px;
-  font-family: sans-serif;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 .main-content__button a {
   text-decoration: none;
   color: #154444;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.trust {
+  margin-top: 140px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,13 +2,17 @@ $blue_text: #244D4D;
 $blue_color: #154444;
 $black: #161616;
 $white: #ffffff;
-$sans: sans-serif;
+$sans: 'DM Sans', sans-serif;
+$mont: 'Montserrat';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    
+
 }
 
 .container{
@@ -17,7 +21,7 @@ $sans: sans-serif;
 
 .nav-menu{
 display: flex;
-justify-content: center;
+justify-content: space-between;
  
 &__logo{
     margin-top: 44px;
@@ -26,7 +30,7 @@ justify-content: center;
     font-size: 24px;
     line-height: 29px;
     color: $blue_text;
-    font-family: $sans;
+    font-family: $mont;
     margin-right: 217px;
 } 
 
@@ -39,7 +43,8 @@ justify-content: center;
     font-size: 16px;
     line-height: 21px;
     margin-top: 48.02px;
-    font-family: sans-serif;
+    font-family: $sans;
+    
 }
 
 &__link a{
@@ -60,7 +65,7 @@ justify-content: center;
     max-width: 24px;
     max-height: 16px;
     margin-left: 38px;
-   margin-bottom: 31px;
+    margin-bottom: 31px;
 }
 
 }
@@ -68,18 +73,22 @@ justify-content: center;
 .main-content{
     display: flex;
     justify-content: center;
+    
+    
 
 &__image{
     width: 411px;
     height: 560px;
     margin-left: 120px;
+    
 }
 
 &__text{
     background-color: $blue_color;
     height: 560px;
     width: 1200px;
-    margin-right: 120px;
+    
+    
 }
 
 &__title{
@@ -87,18 +96,19 @@ justify-content: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 68px;
-    font-family: $sans;
+    font-family: $mont;
     padding-top: 101px;
     padding-left: 100px;
+    width: 671px;
 }
 
 &__subtitle{
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    padding-top: 20px;    
+    padding-top: 20px;   
     color: $white;
-    padding-left: 100px;
+    margin-left: 100px;
     width: 488px;
     height: 75px;
     font-family: $sans;
@@ -112,12 +122,25 @@ justify-content: center;
     padding-top: 15.5px;
     padding-left: 25px;
     font-family: $sans;
+    margin-top: 50px;
+    margin-left: 100px;
+    
     
 }
 
 &__button a{
     text-decoration: none;
     color: $blue_color;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px    
     
 }
+}
+
+.trust{
+    margin-top: 140px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
 }
