@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1440px;
+  width: 1200px;
 }
 
 .nav-menu {
@@ -56,6 +56,7 @@
 .main-content {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .main-content__image {
   width: 411px;
@@ -106,9 +107,86 @@
   line-height: 25px;
 }
 
-.trust {
-  margin-top: 140px;
+.trusted-companies {
+  padding-top: 140px;
+}
+.trusted-companies__title {
+  display: flex;
+  margin-left: 487px;
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
+  color: #244D4D;
+  font-family: "DM Sans", sans-serif;
+  width: 486px;
+  height: 42px;
+}
+.trusted-companies__logo {
+  display: flex;
+  justify-content: center;
+  grid-gap: 100px;
+  padding-top: 50px;
+}
+.trusted-companies__mastercard {
+  width: 66.98px;
+  height: 51.97px;
+  left: 0px;
+  top: 0px;
+}
+.trusted-companies__airbnb {
+  width: 125px;
+  height: 39px;
+  left: 0px;
+  top: 0px;
+}
+.trusted-companies__uber {
+  width: 97.3px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+}
+.trusted-companies__paypal {
+  width: 106.47px;
+  height: 37.39px;
+  left: 0px;
+  top: 0px;
+}
+.trusted-companies__visa {
+  width: 89.6px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+}
+.trusted-companies__stripe {
+  width: 96.66px;
+  height: 40.4px;
+  left: 0px;
+  top: 0px;
+}
+
+.information {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information-content__img {
+  width: 596px;
+  height: 577px;
+}
+.information-content__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #244D4D;
+  font-family: "Montserrat";
+}
+.information-content__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  width: 436px;
+  height: 75px;
+  color: #444444;
+  font-family: "DM Sans", sans-serif;
 }/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,9 @@
 $blue_text: #244D4D;
 $blue_color: #154444;
 $black: #161616;
+$dark_grey: #444444;
 $white: #ffffff;
+$grey: #DEE4E2;
 $sans: 'DM Sans', sans-serif;
 $mont: 'Montserrat';
 
@@ -16,7 +18,7 @@ $mont: 'Montserrat';
 }
 
 .container{
-    width: 1440px;
+    width: 1200px;
 }
 
 .nav-menu{
@@ -73,7 +75,7 @@ justify-content: space-between;
 .main-content{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     
 
 &__image{
@@ -138,9 +140,103 @@ justify-content: space-between;
 }
 }
 
-.trust{
-    margin-top: 140px;
+.trusted-companies{  
+    padding-top: 140px;
+    
+    
+    
+&__title{
+    display: flex;
+    margin-left: 487px;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
+    color: $blue_text;
+    font-family: $sans;
+    width: 486px;
+    height: 42px;
+} 
+&__logo{
+    display: flex;
+    justify-content: center;
+    grid-gap: 100px;
+    padding-top: 50px;
+}
+
+&__mastercard{
+    width: 66.98px;
+    height: 51.97px;
+    left: 0px;
+    top: 0px;    
+}
+
+&__airbnb{
+    width: 125px;
+    height: 39px;
+    left: 0px;
+    top: 0px;        
+}
+
+&__uber{
+    width: 97.3px;
+    height: 34px;
+    left: 0px;
+    top: 0px;   
+}
+
+&__paypal{
+    width: 106.47px;
+    height: 37.39px;
+    left: 0px;
+    top: 0px;    
+}
+
+&__visa{
+    width: 89.6px;
+    height: 32px;
+    left: 0px;
+    top: 0px;    
+}
+
+&__stripe{
+    width: 96.66px;
+    height: 40.4px;
+    left: 0px;
+    top: 0px; 
+ 
+}
+   
+}
+
+.information{
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-content{
+    
+&__img{
+    width: 596px;
+    height: 577px;    
+
+}    
+
+&__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: $blue_text;
+    font-family: $mont;    
+}
+
+&__subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px; 
+    width: 436px;
+    height: 75px;
+    color: $dark_grey;  
+    font-family: $sans; 
+}
 }
