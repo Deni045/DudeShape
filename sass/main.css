@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1400px;
 }
 
 .nav-menu {
@@ -126,6 +126,7 @@
   justify-content: center;
   grid-gap: 100px;
   padding-top: 50px;
+  margin-left: 179px;
 }
 .trusted-companies__mastercard {
   width: 66.98px;
@@ -165,14 +166,25 @@
 }
 
 .information {
-  padding-top: 140px;
   display: flex;
   justify-content: space-between;
+}
+.information__block {
+  background-color: #DEE4E2;
+  width: 631.24px;
+  height: 612.21px;
+  margin-top: 20px;
+  padding-right: 35px;
 }
 
 .information-content__img {
   width: 596px;
   height: 577px;
+  margin-left: 136px;
+  margin-top: 148px;
+}
+.information-content__inner {
+  margin-left: 100px;
 }
 .information-content__title {
   font-weight: 700;
@@ -180,13 +192,46 @@
   line-height: 40px;
   color: #244D4D;
   font-family: "Montserrat";
+  width: 407px;
+  margin-top: 198px;
 }
 .information-content__subtitle {
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
   width: 436px;
+  margin-top: 20px;
   height: 75px;
   color: #444444;
   font-family: "DM Sans", sans-serif;
+}
+.information-content__info {
+  display: flex;
+  align-items: center;
+}
+.information-content__icon {
+  width: 50px;
+  height: 50px;
+}
+.information-content__overskrift {
+  font-family: "Montserrat";
+  color: #244D4D;
+  font-weight: 700;
+  font-size: 20px;
+  width: 150px;
+  height: 26px;
+  margin-bottom: 14px;
+  margin-left: 31px;
+  line-height: 26px;
+  margin-top: 35px;
+}
+.information-content__paragraf {
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 306px;
+  height: 52px;
+  line-height: 26px;
+  margin-left: 31px;
 }/*# sourceMappingURL=main.css.map */
