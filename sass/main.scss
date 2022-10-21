@@ -1,6 +1,7 @@
 $blue_text: #244D4D;
 $blue_color: #154444;
 $black: #161616;
+$black2: #242424;
 $black_text: #383738;
 $dark_grey: #444444;
 $white: #ffffff;
@@ -223,13 +224,18 @@ justify-content: space-between;
 }
 }
 
+
 .information-content{
+
     
-&__img{
+
+&__sofa{
+    
     width: 596px;
     height: 577px;    
     margin-left: 136px;
     margin-top: 148px;
+    
 }    
 
 &__inner{
@@ -289,5 +295,99 @@ justify-content: space-between;
     height: 52px;    
     line-height: 26px;
     margin-left: 31px;    
+}
+}
+
+.Furniture{
+    margin-top: 175px;
+}
+
+.text{
+    margin-left: 121px;
+ &-title{
+     font-family: $mont;
+     color: $black2;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 52px;
+     width: 370px;
+ }
+ &-subtitle{
+     font-family: $sans;
+     color: $black_text;
+     margin-top: 20px;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 27px;
+     width: 819px;
+ }
+}
+
+.Furniture-options{
+
+&__buy{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+&__chairAndTabel{
+    margin-top: 80px;
+    width: 380px; 
+    height: 246px;
+}
+
+&__IMGname{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px; 
+    font-family: $sans;  
+    color: $black2; 
+    margin-top: 30px;
+    margin-left: 24px;
+}
+
+&__heart{
+    width: 26px;
+    height: 26px;
+    margin-top: 30px;
+}
+&__share{
+    width: 26px;
+    height: 26px;
+    margin-top: 30px;
+}
+&__value{
+    width: 380px;
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+&__cash{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: $sans;
+    color: $blue_color; 
+    margin-left: 24px;   
+}
+&__purchase{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: $sans;
+    color: $white;    
+    background-color: $blue_text;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    padding-left: 14.55px;
+    padding-right: 14.55px;
+    margin-right: 24px;
+
+}
+&__purchase a{
+    text-decoration: none;
+    
 }
 }

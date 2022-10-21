@@ -177,7 +177,7 @@
   padding-right: 35px;
 }
 
-.information-content__img {
+.information-content__sofa {
   width: 596px;
   height: 577px;
   margin-left: 136px;
@@ -234,4 +234,90 @@
   height: 52px;
   line-height: 26px;
   margin-left: 31px;
+}
+
+.Furniture {
+  margin-top: 175px;
+}
+
+.text {
+  margin-left: 121px;
+}
+.text-title {
+  font-family: "Montserrat";
+  color: #242424;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  width: 370px;
+}
+.text-subtitle {
+  font-family: "DM Sans", sans-serif;
+  color: #383738;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  width: 819px;
+}
+
+.Furniture-options__buy {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Furniture-options__chairAndTabel {
+  margin-top: 80px;
+  width: 380px;
+  height: 246px;
+}
+.Furniture-options__IMGname {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "DM Sans", sans-serif;
+  color: #242424;
+  margin-top: 30px;
+  margin-left: 24px;
+}
+.Furniture-options__heart {
+  width: 26px;
+  height: 26px;
+  margin-top: 30px;
+}
+.Furniture-options__share {
+  width: 26px;
+  height: 26px;
+  margin-top: 30px;
+}
+.Furniture-options__value {
+  width: 380px;
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+.Furniture-options__cash {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: "DM Sans", sans-serif;
+  color: #154444;
+  margin-left: 24px;
+}
+.Furniture-options__purchase {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  background-color: #244D4D;
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  padding-left: 14.55px;
+  padding-right: 14.55px;
+  margin-right: 24px;
+}
+.Furniture-options__purchase a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
