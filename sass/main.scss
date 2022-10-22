@@ -62,6 +62,7 @@ justify-content: space-between;
     margin-top: 46px;
     margin-left: 285px;
     margin-bottom: 31px;
+    cursor: pointer;
     
 }
 
@@ -70,6 +71,7 @@ justify-content: space-between;
     max-height: 16px;
     margin-left: 38px;
     margin-bottom: 31px;
+    cursor: pointer;
 }
 
 }
@@ -300,10 +302,12 @@ justify-content: space-between;
 
 .Furniture{
     margin-top: 175px;
+    
 }
 
 .text{
     margin-left: 121px;
+   
  &-title{
      font-family: $mont;
      color: $black2;
@@ -312,7 +316,14 @@ justify-content: space-between;
      line-height: 52px;
      width: 370px;
  }
- &-subtitle{
+}
+
+.text-content{
+display: flex;
+align-items: center;
+
+ &__subtitle{ 
+    margin-left: 121px;
      font-family: $sans;
      color: $black_text;
      margin-top: 20px;
@@ -321,21 +332,52 @@ justify-content: space-between;
      line-height: 27px;
      width: 819px;
  }
+
+ &__leftArrow{
+    width: 40px;
+    height: 40px;
+}
+
+&__rightArrow{
+    width: 40px;
+    height: 40px;
+} 
+
+&__right{
+    margin-left: 16px;
+}
+
+&__left{
+    margin-left: 280px;
+}
+}
+
+   
+.Furniture-all{
+    display: flex;
+    margin-left: 120px;
 }
 
 .Furniture-options{
+    display: grid;
+    margin-left: 30px;
+margin-top: 80px;
+box-shadow: 0px 13px 26px 0px #00000012;
+width: 380px;
+height: 382px;
 
 &__buy{
     width: 380px;
     display: flex;
-    justify-content: space-between;
+   
     align-items: center;
+    
 }
 
 &__chairAndTabel{
-    margin-top: 80px;
     width: 380px; 
     height: 246px;
+
 }
 
 &__IMGname{
@@ -346,17 +388,22 @@ justify-content: space-between;
     color: $black2; 
     margin-top: 30px;
     margin-left: 24px;
+    margin-right: 101px;
 }
 
 &__heart{
     width: 26px;
     height: 26px;
     margin-top: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+    
 }
 &__share{
     width: 26px;
     height: 26px;
     margin-top: 30px;
+    cursor: pointer;
 }
 &__value{
     width: 380px;
@@ -384,10 +431,7 @@ justify-content: space-between;
     padding-left: 14.55px;
     padding-right: 14.55px;
     margin-right: 24px;
-
-}
-&__purchase a{
     text-decoration: none;
-    
+
 }
 }

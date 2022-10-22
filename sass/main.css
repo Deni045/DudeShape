@@ -45,12 +45,14 @@
   margin-top: 46px;
   margin-left: 285px;
   margin-bottom: 31px;
+  cursor: pointer;
 }
 .nav-menu__menu {
   max-width: 24px;
   max-height: 16px;
   margin-left: 38px;
   margin-bottom: 31px;
+  cursor: pointer;
 }
 
 .main-content {
@@ -251,7 +253,13 @@
   line-height: 52px;
   width: 370px;
 }
-.text-subtitle {
+
+.text-content {
+  display: flex;
+  align-items: center;
+}
+.text-content__subtitle {
+  margin-left: 121px;
   font-family: "DM Sans", sans-serif;
   color: #383738;
   margin-top: 20px;
@@ -260,15 +268,40 @@
   line-height: 27px;
   width: 819px;
 }
+.text-content__leftArrow {
+  width: 40px;
+  height: 40px;
+}
+.text-content__rightArrow {
+  width: 40px;
+  height: 40px;
+}
+.text-content__right {
+  margin-left: 16px;
+}
+.text-content__left {
+  margin-left: 280px;
+}
 
+.Furniture-all {
+  display: flex;
+  margin-left: 120px;
+}
+
+.Furniture-options {
+  display: grid;
+  margin-left: 30px;
+  margin-top: 80px;
+  box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.0705882353);
+  width: 380px;
+  height: 382px;
+}
 .Furniture-options__buy {
   width: 380px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .Furniture-options__chairAndTabel {
-  margin-top: 80px;
   width: 380px;
   height: 246px;
 }
@@ -280,16 +313,20 @@
   color: #242424;
   margin-top: 30px;
   margin-left: 24px;
+  margin-right: 101px;
 }
 .Furniture-options__heart {
   width: 26px;
   height: 26px;
   margin-top: 30px;
+  margin-right: 8px;
+  cursor: pointer;
 }
 .Furniture-options__share {
   width: 26px;
   height: 26px;
   margin-top: 30px;
+  cursor: pointer;
 }
 .Furniture-options__value {
   width: 380px;
@@ -317,7 +354,5 @@
   padding-left: 14.55px;
   padding-right: 14.55px;
   margin-right: 24px;
-}
-.Furniture-options__purchase a {
   text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
