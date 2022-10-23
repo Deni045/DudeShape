@@ -4,8 +4,11 @@ $black: #161616;
 $black2: #242424;
 $black_text: #383738;
 $dark_grey: #444444;
+$grey_text: #919090;
 $white: #ffffff;
 $grey: #DEE4E2;
+$orange: #EF5423;
+$blue_grey: #ECF4FF;
 $sans: 'DM Sans', sans-serif;
 $mont: 'Montserrat';
 
@@ -217,29 +220,24 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
 
-&__block{
+&-block{
     background-color: $grey;
     width: 631.24px; 
-    height: 612.21px;
-    margin-top: 20px;
-    padding-right: 35px;
+    height: 586.21px;
+    margin-left: 136px;
+    margin-top: 180px;
 }
+
 }
 
 
-.information-content{
-
-    
-
+.information-content{    
 &__sofa{
-    
     width: 596px;
     height: 577px;    
-    margin-left: 136px;
-    margin-top: 148px;
-    
-}    
-
+    margin-top: -31px;
+    margin-right: -35px;
+} 
 &__inner{
     margin-left: 100px;
 }
@@ -299,6 +297,7 @@ justify-content: space-between;
     margin-left: 31px;    
 }
 }
+
 
 .Furniture{
     margin-top: 175px;
@@ -431,7 +430,59 @@ height: 382px;
     padding-left: 14.55px;
     padding-right: 14.55px;
     margin-right: 24px;
+    margin-bottom: 26px;
     text-decoration: none;
 
 }
 }
+
+.Furniture-catalog{
+    
+    
+&__topp{
+    display: flex;
+    justify-content: center;
+    font-family: $mont;
+    color: $black2;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 140px;  
+    margin-bottom: 20px;
+  
+}
+
+&__under{
+    display: flex;
+    justify-content: center;
+    grid-gap: 100px;
+}
+&__shop{
+    display: flex;
+    justify-content: center;
+    font-family: $sans;
+    color: $grey_text;
+    width: 210px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;   
+    margin-bottom: 100px; 
+    
+    
+}
+&__shop:hover{
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    width: 210px;
+    height: 27px;
+    border-bottom: 3px solid #154444;
+    
+    cursor: pointer;
+    color: $blue_color;
+    
+}
+}
+//57

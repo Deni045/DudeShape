@@ -171,19 +171,19 @@
   display: flex;
   justify-content: space-between;
 }
-.information__block {
+.information-block {
   background-color: #DEE4E2;
   width: 631.24px;
-  height: 612.21px;
-  margin-top: 20px;
-  padding-right: 35px;
+  height: 586.21px;
+  margin-left: 136px;
+  margin-top: 180px;
 }
 
 .information-content__sofa {
   width: 596px;
   height: 577px;
-  margin-left: 136px;
-  margin-top: 148px;
+  margin-top: -31px;
+  margin-right: -35px;
 }
 .information-content__inner {
   margin-left: 100px;
@@ -354,5 +354,45 @@
   padding-left: 14.55px;
   padding-right: 14.55px;
   margin-right: 24px;
+  margin-bottom: 26px;
   text-decoration: none;
+}
+
+.Furniture-catalog__topp {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  color: #242424;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+.Furniture-catalog__under {
+  display: flex;
+  justify-content: center;
+  grid-gap: 100px;
+}
+.Furniture-catalog__shop {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  color: #919090;
+  width: 210px;
+  height: 27px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 100px;
+}
+.Furniture-catalog__shop:hover {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  width: 210px;
+  height: 27px;
+  border-bottom: 3px solid #154444;
+  cursor: pointer;
+  color: #154444;
 }/*# sourceMappingURL=main.css.map */
