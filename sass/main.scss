@@ -456,8 +456,10 @@ height: 382px;
     display: flex;
     justify-content: center;
     grid-gap: 100px;
+    
 }
 &__shop{
+
     display: flex;
     justify-content: center;
     font-family: $sans;
@@ -467,22 +469,74 @@ height: 382px;
     font-weight: 400;
     font-size: 24px;
     line-height: 27px;   
-    margin-bottom: 100px; 
+   
     
     
 }
+
 &__shop:hover{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 24px;
     line-height: 27px;
     width: 210px;
     height: 27px;
-    border-bottom: 3px solid #154444;
+    border-bottom: 3px solid #154444; 
     
     cursor: pointer;
     color: $blue_color;
-    
+}    
+&__leftBlock{
+    width: 190.1px;
+    height: 85.87px;
+    margin-top: 88px;
+    margin-left: 126px;
+    background-color: $blue_color;
+}
+&__rightBlock{
+    width: 190.1px;
+    height: 85.87px;
+    margin-left: 197px;
+    margin-top: 242px;
+    background-color: $blue_color;
+}
+
+&__office{
+    width: 552.84px;
+    height: 389.32px; 
+    margin-left: 13px;  
+    margin-top: 13px; 
+    margin-bottom: 100px;
+}
+
+&__innercontent{
+   display: flex;
+}
+&__space{
+display: flex;
+justify-content: center;
+border: 3px solid $grey_text;
+padding-left: 99px;
+padding-right: 99px;
+padding-bottom: 55px;
+padding-top: 15px;
+margin-left: 246px;
+}
+
+&__sofa1{
+    width: 24px;
+    height: 24px;
+}
+&__sofa1text{
+ 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;  
+    font-family: $sans;
+      
 }
 }
+//#808080
 //57
