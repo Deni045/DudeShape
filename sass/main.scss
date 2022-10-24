@@ -7,6 +7,8 @@ $dark_grey: #444444;
 $grey_text: #919090;
 $white: #ffffff;
 $grey: #DEE4E2;
+$grey_border: #D9DCE5;
+$grey_grey: #808080;
 $orange: #EF5423;
 $blue_grey: #ECF4FF;
 $sans: 'DM Sans', sans-serif;
@@ -494,13 +496,15 @@ height: 382px;
     margin-top: 88px;
     margin-left: 126px;
     background-color: $blue_color;
+    
 }
 &__rightBlock{
     width: 190.1px;
     height: 85.87px;
-    margin-left: 197px;
-    margin-top: 242px;
+    margin-left: 387px;
+    margin-top: -75px;
     background-color: $blue_color;
+    
 }
 
 &__office{
@@ -508,35 +512,73 @@ height: 382px;
     height: 389.32px; 
     margin-left: 13px;  
     margin-top: 13px; 
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 &__innercontent{
    display: flex;
-}
-&__space{
-display: flex;
-justify-content: center;
-border: 3px solid $grey_text;
-padding-left: 99px;
-padding-right: 99px;
-padding-bottom: 55px;
-padding-top: 15px;
-margin-left: 246px;
+   
 }
 
-&__sofa1{
+&__all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px 30px;
+    margin-left: 522px;
+    margin-top: 129px;
+}
+&__space{
+display: inline-block;
+justify-content: center;
+width: 222px;
+height: 90px;
+border: 1.5px solid $grey_border;
+padding-left: 99px;
+padding-top: 15px;
+
+}
+&__space:hover{
+    display: inline-block;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    width: 222px;
+    height: 90px;
+    border: 1.5px solid $grey_border;
+    background-color: #154444;
+    padding-left: 99px;
+    padding-top: 15px;
+    
+    }
+
+&__icon0{
+    display: flex;
+    justify-content: center;
     width: 24px;
     height: 24px;
+    filter: $blue_text;
+    color: #666666;
 }
-&__sofa1text{
- 
+&__icon0TEXTblock{
+    display: flex;
+    justify-content: center;
+    width: 91px;
+    
+}
+&__icon0text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    margin-left: -60px;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;  
     font-family: $sans;
+    color: $grey_grey;
       
 }
+
 }
-//#808080
-//57
+
