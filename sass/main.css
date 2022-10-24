@@ -408,8 +408,8 @@
 .Furniture-catalog__rightBlock {
   width: 190.1px;
   height: 85.87px;
-  margin-left: 197px;
-  margin-top: 242px;
+  margin-left: 387px;
+  margin-top: -75px;
   background-color: #154444;
 }
 .Furniture-catalog__office {
@@ -417,28 +417,62 @@
   height: 389.32px;
   margin-left: 13px;
   margin-top: 13px;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 .Furniture-catalog__innercontent {
   display: flex;
 }
+.Furniture-catalog__all {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px 30px;
+  margin-left: 522px;
+  margin-top: 129px;
+}
 .Furniture-catalog__space {
+  display: inline-block;
+  justify-content: center;
+  width: 222px;
+  height: 90px;
+  border: 1.5px solid #D9DCE5;
+  padding-left: 99px;
+  padding-top: 15px;
+}
+.Furniture-catalog__space:hover {
+  display: inline-block;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 30px;
+  width: 222px;
+  height: 90px;
+  border: 1.5px solid #D9DCE5;
+  background-color: #154444;
+  padding-left: 99px;
+  padding-top: 15px;
+}
+.Furniture-catalog__icon0 {
   display: flex;
   justify-content: center;
-  border: 3px solid #919090;
-  padding-left: 99px;
-  padding-right: 99px;
-  padding-bottom: 55px;
-  padding-top: 15px;
-  margin-left: 246px;
-}
-.Furniture-catalog__sofa1 {
   width: 24px;
   height: 24px;
+  filter: #244D4D;
+  color: #666666;
 }
-.Furniture-catalog__sofa1text {
+.Furniture-catalog__icon0TEXTblock {
+  display: flex;
+  justify-content: center;
+  width: 91px;
+}
+.Furniture-catalog__icon0text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  margin-left: -60px;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
   font-family: "DM Sans", sans-serif;
+  color: #808080;
 }/*# sourceMappingURL=main.css.map */
