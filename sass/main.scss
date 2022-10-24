@@ -1,7 +1,9 @@
 $blue_text: #244D4D;
 $blue_color: #154444;
+$blue_unsure:#305F64;
 $black: #161616;
 $black2: #242424;
+$black3: #000000;
 $black_text: #383738;
 $dark_grey: #444444;
 $grey_text: #919090;
@@ -9,6 +11,7 @@ $white: #ffffff;
 $grey: #DEE4E2;
 $grey_border: #D9DCE5;
 $grey_grey: #808080;
+$grey2:#F4F6F6;
 $orange: #EF5423;
 $blue_grey: #ECF4FF;
 $sans: 'DM Sans', sans-serif;
@@ -88,6 +91,7 @@ justify-content: space-between;
     
 
 &__image{
+    
     width: 411px;
     height: 560px;
     margin-left: 120px;
@@ -535,9 +539,10 @@ height: 90px;
 border: 1.5px solid $grey_border;
 padding-left: 99px;
 padding-top: 15px;
-
+cursor: pointer;
 }
-&__space:hover{
+
+&-Furniture-catalog__spacegreen{
     display: inline-block;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
@@ -547,9 +552,9 @@ padding-top: 15px;
     border: 1.5px solid $grey_border;
     background-color: #154444;
     padding-left: 99px;
-    padding-top: 15px;
-    
-    }
+    padding-top: 15px;    
+    cursor: pointer;
+}
 
 &__icon0{
     display: flex;
@@ -579,6 +584,186 @@ padding-top: 15px;
     color: $grey_grey;
       
 }
-
+&-Furniture-catalog__icon0textwhite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    margin-left: -70px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;  
+    font-family: $sans;
+    color: $white;    
+}
 }
 
+.customers{
+display: flex;
+
+&__standimg{
+    margin-left: 105px;
+    width: 459.09px;
+    height: 493.42px;  
+    margin-top: -1px;
+     
+} 
+
+&__stand{
+    background-color: $blue_text;
+    width: 492.42px;
+    height: 492.42px;
+    border-radius: 50%; 
+    margin-left: 120px;
+    margin-top: 225px;
+}
+
+&-writing{
+    margin-left: 172px;
+    margin-top: 277px;
+}
+}
+
+.tekst{
+
+&__hoved{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: $mont;
+    color: $black2;
+    width: 535px;
+    padding-bottom: 20px;
+}
+&__avsnitt{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: $sans;
+    color: $black_text;    
+    width: 535px;
+}
+}
+
+.customers-review{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    margin-top: 44px;
+  
+&__dude{
+    width: 50px;
+    height: 50px;   
+}
+&__dudeName{
+    
+    width: 69px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: $sans;
+    color: $black3; 
+}   
+&__stars{
+    display: flex;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+&__star{
+    width: 16px;
+    height: 15.33px;
+    margin-right: 6px;
+    
+}
+&__starValue{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    font-family: $sans;   
+    color: $black3; 
+}
+}
+
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 140px;
+    width: 1300px;
+    height: 394.32px;
+    background-color: $grey2;
+    margin-bottom: 140px;
+
+&-innerstuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+&-join{
+    border: none;
+}
+}
+
+.tekst1{
+
+&__hoved1{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: $mont;
+    color: $black2;
+    width: 605px;
+    
+    padding-bottom: 20px;
+}
+&__avsnitt1{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: $sans;
+    color: $black_text;    
+    width: 535px;
+    margin-bottom: 40px;
+}
+}
+
+.subscribe-Register{
+display: flex;
+justify-content: center;
+align-items: center;
+&__emailIMG{
+    width: 16px;
+    height: 16px;    
+}
+&__email{
+    width: 471.98px;
+    height: 67px;
+    outline: none;
+    border: none;
+}
+&__register{
+    color: $white;
+    background-color: $blue_unsure;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 31px;
+    padding-right: 31px;
+    font-family: $sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+}
+
+.bg_blue{
+    background-color: $blue_unsure;
+}

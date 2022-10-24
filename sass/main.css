@@ -437,8 +437,9 @@
   border: 1.5px solid #D9DCE5;
   padding-left: 99px;
   padding-top: 15px;
+  cursor: pointer;
 }
-.Furniture-catalog__space:hover {
+.Furniture-catalog-Furniture-catalog__spacegreen {
   display: inline-block;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
@@ -449,6 +450,7 @@
   background-color: #154444;
   padding-left: 99px;
   padding-top: 15px;
+  cursor: pointer;
 }
 .Furniture-catalog__icon0 {
   display: flex;
@@ -475,4 +477,169 @@
   line-height: 21px;
   font-family: "DM Sans", sans-serif;
   color: #808080;
+}
+.Furniture-catalog-Furniture-catalog__icon0textwhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  margin-left: -70px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+}
+
+.customers {
+  display: flex;
+}
+.customers__standimg {
+  margin-left: 105px;
+  width: 459.09px;
+  height: 493.42px;
+  margin-top: -1px;
+}
+.customers__stand {
+  background-color: #244D4D;
+  width: 492.42px;
+  height: 492.42px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 225px;
+}
+.customers-writing {
+  margin-left: 172px;
+  margin-top: 277px;
+}
+
+.tekst__hoved {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-family: "Montserrat";
+  color: #242424;
+  width: 535px;
+  padding-bottom: 20px;
+}
+.tekst__avsnitt {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "DM Sans", sans-serif;
+  color: #383738;
+  width: 535px;
+}
+
+.customers-review {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  margin-top: 44px;
+}
+.customers-review__dude {
+  width: 50px;
+  height: 50px;
+}
+.customers-review__dudeName {
+  width: 69px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+}
+.customers-review__stars {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.customers-review__star {
+  width: 16px;
+  height: 15.33px;
+  margin-right: 6px;
+}
+.customers-review__starValue {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 140px;
+  width: 1300px;
+  height: 394.32px;
+  background-color: #F4F6F6;
+  margin-bottom: 140px;
+}
+.subscribe-innerstuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-join {
+  border: none;
+}
+
+.tekst1__hoved1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-family: "Montserrat";
+  color: #242424;
+  width: 605px;
+  padding-bottom: 20px;
+}
+.tekst1__avsnitt1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "DM Sans", sans-serif;
+  color: #383738;
+  width: 535px;
+  margin-bottom: 40px;
+}
+
+.subscribe-Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-Register__emailIMG {
+  width: 16px;
+  height: 16px;
+}
+.subscribe-Register__email {
+  width: 471.98px;
+  height: 67px;
+  outline: none;
+  border: none;
+}
+.subscribe-Register__register {
+  color: #ffffff;
+  background-color: #305F64;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bg_blue {
+  background-color: #305F64;
 }/*# sourceMappingURL=main.css.map */
