@@ -714,6 +714,7 @@ display: flex;
 &__hoved1{
     display: flex;
     justify-content: center;
+    text-align: center;
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
@@ -724,6 +725,7 @@ display: flex;
     padding-bottom: 20px;
 }
 &__avsnitt1{
+    text-align: center;
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -740,19 +742,35 @@ display: flex;
 display: flex;
 justify-content: center;
 align-items: center;
+
+&__form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 &__emailIMG{
+    margin-right: -30px;
     width: 16px;
-    height: 16px;    
+    height: 16px; 
+    position: relative;   
 }
 &__email{
+    display: flex;
+    flex-grow: 2;
     width: 471.98px;
     height: 67px;
+    padding-left: 45px;
     outline: none;
     border: none;
+    
+}
+&__email:focus{
+    outline: none;
 }
 &__register{
     color: $white;
     background-color: $blue_unsure;
+    border: none;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 31px;
@@ -761,9 +779,148 @@ align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    position: absolute;
+    margin-left: 327px;
+    cursor: pointer;
 }
 }
 
-.bg_blue{
+.bg-blue{
     background-color: $blue_unsure;
+    width: 1600px;
 }
+
+.follow{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 120px;
+&-dudeshape{
+    display: flex;
+    flex-direction: column;
+    padding-right: 157px;
+}    
+&-Name{
+    font-family: $mont;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: $white;
+    padding-bottom: 24px;
+}
+&-text{
+    font-family: $sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;   
+    width: 308px;
+    color: $white; 
+    padding-bottom: 40px;
+}
+&-followUS{
+    font-family: $mont;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: $white;
+    padding-bottom: 24px;
+}
+&-logo{
+    padding-bottom: 40px;
+    display: flex;
+    grid-gap: 30px;
+}
+&-facebook{
+    width: 20px;
+    height: 20px;    
+}
+&-twitter{
+    width: 20px;
+    height: 20px;
+}
+&-instagram{
+    width: 20px;
+    height: 20px;
+}
+&-youtube{
+    width: 20px;
+    height: 20px;
+}
+&-list{
+    display: flex;
+    flex-direction: column;
+    width: 156px;
+    margin-right: 100px;
+}
+&-head{
+    font-family: $mont;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: $white;
+    padding-bottom: 24px;
+}
+&-under{
+    padding-bottom: 16px;
+    font-family: $mont;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: $white;    
+}
+&-sub{
+    border: none;
+}
+&-subscribe{
+    font-family: $mont;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: $white;
+    padding-bottom: 23px;
+}
+&-subscribetext{
+    font-family: $sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px; 
+    color: $white;  
+    padding-bottom: 40px; 
+}
+&-form{
+    display: flex;
+    align-items: center;
+}
+&-input{
+    width: 253px;
+    height: 48px;
+    border: none;
+    outline: none;
+}
+&-input::placeholder{
+    padding-left: 22px;
+}
+&-yellowArrow{
+    width: 28px;
+    height: 28px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+}
+.copyright{
+    width: 100vw;
+     border-top: 1px solid #407980 ; 
+
+&-text{
+    display: flex;
+    
+    font-family: $sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: $white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   margin-left: 569px;
+}
+}
+

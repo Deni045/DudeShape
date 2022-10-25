@@ -592,6 +592,7 @@
 .tekst1__hoved1 {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
@@ -601,6 +602,7 @@
   padding-bottom: 20px;
 }
 .tekst1__avsnitt1 {
+  text-align: center;
   display: flex;
   justify-content: center;
   font-weight: 400;
@@ -617,19 +619,33 @@
   justify-content: center;
   align-items: center;
 }
+.subscribe-Register__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .subscribe-Register__emailIMG {
+  margin-right: -30px;
   width: 16px;
   height: 16px;
+  position: relative;
 }
 .subscribe-Register__email {
+  display: flex;
+  flex-grow: 2;
   width: 471.98px;
   height: 67px;
+  padding-left: 45px;
   outline: none;
   border: none;
+}
+.subscribe-Register__email:focus {
+  outline: none;
 }
 .subscribe-Register__register {
   color: #ffffff;
   background-color: #305F64;
+  border: none;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 31px;
@@ -638,8 +654,151 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
+  position: absolute;
+  margin-left: 327px;
+  cursor: pointer;
 }
 
-.bg_blue {
+.bg-blue {
   background-color: #305F64;
+  width: 1600px;
+}
+
+.follow {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 120px;
+}
+.follow-dudeshape {
+  display: flex;
+  flex-direction: column;
+  padding-right: 157px;
+}
+.follow-Name {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.follow-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  width: 308px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.follow-followUS {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.follow-logo {
+  padding-bottom: 40px;
+  display: flex;
+  grid-gap: 30px;
+}
+.follow-facebook {
+  width: 20px;
+  height: 20px;
+}
+.follow-twitter {
+  width: 20px;
+  height: 20px;
+}
+.follow-instagram {
+  width: 20px;
+  height: 20px;
+}
+.follow-youtube {
+  width: 20px;
+  height: 20px;
+}
+.follow-list {
+  display: flex;
+  flex-direction: column;
+  width: 156px;
+  margin-right: 100px;
+}
+.follow-head {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.follow-under {
+  padding-bottom: 16px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.follow-sub {
+  border: none;
+}
+.follow-subscribe {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 23px;
+}
+.follow-subscribetext {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.follow-form {
+  display: flex;
+  align-items: center;
+}
+.follow-input {
+  width: 253px;
+  height: 48px;
+  border: none;
+  outline: none;
+}
+.follow-input::-moz-placeholder {
+  padding-left: 22px;
+}
+.follow-input:-ms-input-placeholder {
+  padding-left: 22px;
+}
+.follow-input::placeholder {
+  padding-left: 22px;
+}
+.follow-yellowArrow {
+  width: 28px;
+  height: 28px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.copyright {
+  width: 100vw;
+  border-top: 1px solid #407980;
+}
+.copyright-text {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 569px;
 }/*# sourceMappingURL=main.css.map */
