@@ -788,7 +788,7 @@
 }
 
 .copyright {
-  width: 100vw;
+  min-width: 1600px;
   border-top: 1px solid #407980;
 }
 .copyright-text {
